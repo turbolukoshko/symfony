@@ -1,0 +1,33 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{ title_main }}{% endblock %}
+
+{% block body %}
+
+    <div id="content" > <img src="images/cotton-flower.jpg" width="726" height="546" alt="">
+        <div class="featured">
+            <div class="header">
+                <ul>
+                    <li class="first"><img src="images/hi.jpg" width="50" height="62" alt=""></li>
+                    <li class="last">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam urna, malesuada in porttitor eget, suscipit sit amet </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                <p> This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. </p>
+                <p> You can remove any link to our website from this website template, you're free to use this website </p>
+            </div>
+        </div>
+    </div>
+
+{#<div class="example-wrapper">#}
+    {#<h1>Hello {{ controller_name2 }}! </h1>#}
+
+    {#This friendly message is coming from:#}
+    {#<ul>#}
+        {#<li>Your controller at <code><a href="{{ 'src/Controller/MainController.php'|file_link(0) }}">src/Controller/MainController.php</a></code></li>#}
+        {#<li>Your template at <code><a href="{{ 'templates/main/index.html.twig'|file_link(0) }}">templates/main/index.html.twig</a></code></li>#}
+    {#</ul>#}
+{#</div>#}
+{% endblock %}
